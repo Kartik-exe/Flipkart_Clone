@@ -1,0 +1,57 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html , body{
+    height: 100%;
+    width: 100%;
+}
+.nav{
+    margin-top: 12px;
+    display: flex;
+    justify-content: space-around;
+}
+.nav1{
+    display: flex;
+    flex-direction: column;
+}
+#Logo{
+    font-size: 20px;
+    font-family: 'RionaSansW04-BoldItalic';
+    /* font-style: italic;
+    font-weight: bold; */
+    color: #2A55E5;
+}
+span{
+    font-size: 12px;
+}
+#search_bar{
+    justify-content: center;
+    align-items: center;
+    width: 550px;
+    height: 40px;
+    border: none;
+    border-radius: 7px;
+    background-color: #F0F5FF;
+}
+#input_data{
+    outline: none;
+    padding-left: 10px;
+    font-family: 'Inter';
+    font-size: 18px;
+    border: none;
+    width: 500px;
+    height: 40px;
+    border-radius: 7px;
+    background-color: #F0F5FF;
+}
+.Become_a_Seller{
+    display: flex;
+    align-items: center;
+}
+.Become_a_Seller span{
+    padding-left: 10px;
+    font-size: 15px;
+    font-family: 'inter';
+}
